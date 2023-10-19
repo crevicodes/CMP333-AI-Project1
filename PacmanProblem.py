@@ -7,8 +7,7 @@
 ###   Michel Pasquier 2019, adapted from the code @
 ###   https://kartikkukreja.wordpress.com/2015/06/14/heuristics-in-ai-search/
 ###
-
-
+print('hi')
 from AI_problem import SearchProblem
 
 class PacmanProblem(SearchProblem):
@@ -56,3 +55,4 @@ class PacmanProblem(SearchProblem):
 
 
 ###
+print('hi')

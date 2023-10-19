@@ -16,6 +16,7 @@ class EightPuzzleProblem (SearchProblem):
     # the 3x3 puzzle grid is an array with the grid cells in row-major order
     # 0 represents empty block
     def __init__(self, grid):
+
         self.grid = list(grid)
         for i in range(len(grid)):
             if self.grid[i] == 0:
